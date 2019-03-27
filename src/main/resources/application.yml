@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    username: root
+    password: admin
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url:  jdbc:mysql://localhost:3306/surveysystem?useSSL=false&characterEncoding=UTF-8&serverTimezone=UTC
+  jpa:
+    show-sql: true
